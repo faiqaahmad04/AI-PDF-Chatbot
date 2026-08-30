@@ -66,7 +66,6 @@ AI-PDF-Chatbot/
 ├── pyproject.toml
 ├── README.md
 ├── data/
-│   ├── files/
 │   └── uploads/
 ├── faiss_store/
 ├── static/
@@ -78,9 +77,7 @@ AI-PDF-Chatbot/
 │       ├── search.py
 │       ├── vectorstore.py
 │       └── __init__.py
-└── notebook/
-    ├── document.ipynb
-    └── pdf_loader.ipynb
+
 ```
 
 ## Notes
