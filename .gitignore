@@ -1,10 +1,7 @@
-# Uploaded user files
-data/uploads/*
-data/files/
-
-# Local generated data
-vector_store/*
-faiss_store/*
+# Uploaded user files and generated data
+data/
+vector_store/
+faiss_store/
 *.sqlite3
 *.db
 
@@ -25,8 +22,9 @@ __pycache__/
 .venv/
 venv/
 
+# Notebooks
+notebook/
+
 # Secrets
 .env
 .env.*
-
-notebook/
