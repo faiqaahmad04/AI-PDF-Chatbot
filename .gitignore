@@ -1,13 +1,32 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Uploaded user files
+data/uploads/*
+data/files/
 
-# Virtual environments
-.venv
+# Local generated data
+vector_store/*
+faiss_store/*
+*.sqlite3
+*.db
+
+# Cache / logs
 .hf_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.log
+
+# Editor / local environment
+.vscode/
+.idea/
+.venv/
+venv/
+
+# Secrets
 .env
-faiss_store/
+.env.*
+
+notebook/
